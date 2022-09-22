@@ -21,6 +21,7 @@
   text-transform: uppercase;
   margin: 0 auto;
   margin-top: 21px;
+  color: #333333;
 
   @media (min-width: $desktop-width) {
     margin-top: 32px;
@@ -104,6 +105,7 @@
   text-transform: uppercase;
   display: table;
   margin-left: 16px;
+  color: #333333;
 }
 
 .review__name-example {
@@ -130,6 +132,10 @@
 
 .review__name-example:active {
   background-color: #FFFFFF;
+  outline: solid 4px #E5E5E5;
+}
+
+.review__name-example:focus {
   outline: solid 4px #E5E5E5;
 }
 
@@ -235,7 +241,7 @@
 }
 
 .review__emotions-text {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
@@ -422,6 +428,11 @@
   outline: solid 4px #E5E5E5;
 }
 
+.review__contacts-email:focus,
+.review__contacts-phone:focus {
+  outline: solid 2px #E5E5E5;
+}
+
 .review__contacts-email {
   background-image: url("../images/icons/form-email.svg");
   background-repeat: no-repeat;
@@ -447,7 +458,7 @@
 }
 
 .review__emotions-button {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;

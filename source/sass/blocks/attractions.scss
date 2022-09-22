@@ -152,7 +152,7 @@
 
 }
 
-.attraction__like--like {
+.attractions__like-like {
   fill: #a4a1a1;
 
   @media (min-width: $desktop-width) {
@@ -164,6 +164,9 @@
   margin-left: 10px;
   @media (min-width: $tablet-width) {
     margin-top: 6px;
+    @media (min-width: $desktop-width) {
+      color: #ffffff;
+    }
   }
 }
 
